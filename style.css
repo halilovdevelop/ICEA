@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto" , sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./img/banner.jpg');
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 165px;
+}
+
+
+nav {
+    display: flex;
+    color: white;
+    align-items: center;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    padding: 15px 10px;
+    position: relative;
+    border-right: 1px solid white;
+}
+
+
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+ 
+}
+
+nav button {
+    background-color: #FF7400 ;
+    border: none;
+    padding: 14px 18px;
+    color: white;
+}
+
+main {
+    width: 100%;
+}
+
+.meals {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 31px;
+    position: relative;
+    top: -100px;
+}
+
+.meals-card {
+    width: 349px;
+    height: 328px;
+    padding: 48px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    background-color: white;
+}
+
+
+.meals-card p {
+    text-align: center;
+    font-size: 26px;
+}
+
+.meals-card p span {
+    color: #BC9060;
+}
+
+
+.meals-card p:nth-child(3)  {
+    color: #656363;
+}
+
+.salat {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 31px;
+    position: relative;
+    top: -100px;
+}
+
+.salat-card {
+    width: 349px;
+    height: 328px;
+    padding: 48px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin-left: 290px;
+    margin-bottom: -400px;
+}
+
+
+.salat-card p {
+    text-align: center;
+    font-size: 26px;
+}
+
+.salat-card p span {
+    color: #BC9060;
+}
+
+
+.salat-card p:nth-child(3)  {
+    color: #656363;
+}
+
+.salat-1 {
+    display: flex;
+    margin-top: 50px;
+}
+
+.tyu {
+   margin-left: 30px;
+   margin-right: 30px; 
+}
+
+.ert h1 {
+   color: #BC9060;
+   margin-left: 290px;
+}
+
+.ert h3 {
+   margin-left: 290px;
+}
+ 
+.ert {
+    background-color: rgb(31, 30, 30);
+}
+
+
+.ert button {
+    background-color: #FF7400 ;
+    border: none;
+    padding: 14px 18px;
+    color: white;
+    margin-left: 1200px;
+    margin-bottom: 50px;
+}
+
+.tyui p {
+    text-align: center;
+    font-size: 26px;
+}
+
+.tyui p span {
+    color: #BC9060;
+}
+
+
+.blud {
+    margin-left: 290px;
+    display: grid;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.blud div {
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    height: 140px;
+    margin-left: 25px;
+}
+
+
+
+.meet {
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://www.lacasa-m.ru/full/D/A/51584-martinimobili-kitchen-essenza-numero-5-6.jpg');
+    background-repeat: no-repeat ;
+    background-size: cover;
+    display: grid;
+}
+
+.meet div {
+    display: flex;
+    background-color: white;
+    height: 550px;
+    width: 430px;
+    align-items: center;
+}
+
+.ghj {
+flex-direction: column;
+}
+
+
+
+.asd {
+    flex-direction: column;
+}
+
+.asd img {
+    border-radius: 100%;
+}
+
+.ghj button {
+    background-color: #FF7400 ;
+    border: none;
+    padding: 14px 18px;
+    color: white;
+ 
+}
+
+.ikl {
+    background-color: #0000001A;
+    align-items: center;
+    text-align: center;
+} 
+
+.lkj {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.ikl img {
+    border-radius: 100%;
+}
+
+.ikl span {
+    margin-bottom: 10px;
+}
+
+.ikl {
+    height: 400px;
+}
+
+.footer {
+    width: 100%;
+    height: 100vh;  
+    background-image: url('https://maket-two.netlify.app/images/footer.png');
+    background-repeat: no-repeat ;
+    background-size: cover;
+    display: grid;
+}
+
+
+
+
+
+
+
+
+
+
